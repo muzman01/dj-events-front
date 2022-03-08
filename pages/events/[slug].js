@@ -1,7 +1,9 @@
-import React from 'react'
+import Layout from "../../components/Layout"
 
 export default function EvenstPage() {
   return (
-    <div>EvenstPage</div>
+    <Layout>
+      <h1>My Events</h1>
+    </Layout>
   )
 }
